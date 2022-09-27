@@ -1,1 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows:5vh 1fr 5vh;
+}
+
+header,main,footer{
+    border: 1px solid black;
+}
+
+.posicionando-itens-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+aside, .content-container{
+    border: 1px solid black;
+    padding: 16px;
+}
